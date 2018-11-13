@@ -41,4 +41,9 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+  scripts/payload_controller
+  DESTINATION bin
+)
+
 ament_package()

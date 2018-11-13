@@ -1,0 +1,5 @@
+#!/usr/bin/env python3
+from sesto_payload.PayloadController import payload_controller_main
+
+if __name__ == '__main__':
+    payload_controller_main()
